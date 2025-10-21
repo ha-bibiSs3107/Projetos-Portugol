@@ -21,7 +21,8 @@ programa
                 resto = resto - divisor
                 quociente = quociente + 1
             }
-            
+
+            escreva("O resultado da divisão é ", quociente, "\n")
             escreva(dividendo, " ÷ ", divisor, " = ", quociente, "\n")
         }
 	}
@@ -31,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 641; 
+ * @POSICAO-CURSOR = 691; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

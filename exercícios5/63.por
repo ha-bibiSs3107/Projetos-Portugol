@@ -1,24 +1,28 @@
 programa
 {
-	
-	funcao inicio()
-	{
-        inteiro numero = 1
+    funcao inteiro calcularDobro(inteiro numero)
+    {
+        retorne numero * 2
+    }
+    
+    funcao inicio()
+    {
+        inteiro num, resultado
         
-        escreva("Mostre os números de 0 a 10\n")
-
-        enquanto(numero <= 10) {
-            escreva(numero, "\n")
-            numero = numero + 1
-        }
-	}
+        escreva("Digite um número: ")
+        leia(num)
+        
+        resultado = calcularDobro(num)
+        
+        escreva("O dobro de ", num, " é: ", resultado, "\n")
+    }
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 222; 
+ * @POSICAO-CURSOR = 351; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
